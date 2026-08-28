@@ -1,0 +1,447 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f8;
+    color: #1a1a2e;
+}
+
+.app-shell {
+    min-height: 100vh;
+}
+
+.header-bar {
+    background: #1a1a2e;
+    color: #ffffff;
+    padding: 1rem 2rem;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-brand-left,
+.header-brand-right {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header-brand-right {
+    gap: 0.55rem;
+}
+
+.header-copy {
+    flex: 1 1 auto;
+    text-align: center;
+    min-width: 0;
+}
+
+.header-logo {
+    display: block;
+    width: auto;
+    object-fit: contain;
+}
+
+.header-logo-left {
+    height: 64px;
+}
+
+.header-logo-right {
+    height: 46px;
+}
+
+.powered-by {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.78);
+    white-space: nowrap;
+}
+
+.page-header {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.page-subtitle {
+    margin: 0.35rem 0 0;
+    font-size: 0.92rem;
+    font-weight: 400;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.page-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.controls-section label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #4a4a68;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.municipality-dropdown {
+    margin-bottom: 1.5rem;
+}
+
+#municipality-dropdown {
+    font-size: 0.95rem;
+}
+
+#municipality-dropdown .Select-control,
+#municipality-dropdown div[class*="-control"] {
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    min-height: 42px;
+    background: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#municipality-dropdown .Select-control:hover,
+#municipality-dropdown div[class*="-control"]:hover {
+    border-color: #1a1a2e;
+}
+
+#municipality-dropdown .is-open > .Select-control,
+#municipality-dropdown div[class*="-control"]:focus-within {
+    border-color: #1a1a2e;
+    box-shadow: 0 0 0 3px rgba(26, 26, 46, 0.12);
+}
+
+#municipality-dropdown .Select-menu-outer,
+#municipality-dropdown div[class*="-menu"] {
+    border: 1px solid #e2e6ea;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(26, 26, 46, 0.1);
+    margin-top: 4px;
+}
+
+#municipality-dropdown .VirtualizedSelectOption,
+#municipality-dropdown div[class*="-option"] {
+    padding: 0.6rem 0.75rem;
+}
+
+#municipality-dropdown .VirtualizedSelectFocusedOption,
+#municipality-dropdown div[class*="-option"]:active {
+    background-color: rgba(26, 26, 46, 0.08);
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.info-card {
+    background: #ffffff;
+    border: 1px solid #e2e6ea;
+    border-top: 3px solid transparent;
+    border-radius: 10px;
+    padding: 1.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    transition: border-top-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.info-card:hover {
+    border-top-color: #800020;
+    box-shadow: 0 4px 12px rgba(128, 0, 32, 0.12);
+}
+
+.card-label {
+    margin: 0 0 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #1a1a2e;
+}
+
+.card-value {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #1a1a2e;
+    word-break: break-word;
+}
+
+#card-demographics {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.demographic-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.demographic-line {
+    margin: 0;
+    line-height: 1.35;
+}
+
+.insights-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: stretch;
+}
+
+.chart-panel,
+.map-panel {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #e2e6ea;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    min-height: 380px;
+}
+
+.panel-label {
+    margin: 0 0 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #1a1a2e;
+}
+
+.panel-footnote {
+    margin: 0.5rem 0 0;
+    font-size: 0.72rem;
+    color: #6b7280;
+    line-height: 1.4;
+}
+
+.panel-footnote-secondary {
+    margin: 0.2rem 0 0;
+    font-size: 0.68rem;
+    color: #9ca3af;
+    line-height: 1.4;
+}
+
+.panel-placeholder {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #cbd5e1;
+    border-radius: 8px;
+    background: #f8fafc;
+    min-height: 320px;
+}
+
+.panel-placeholder-text {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #94a3b8;
+    text-align: center;
+    padding: 1rem;
+}
+
+.map-frame {
+    flex: 1;
+    width: 100%;
+    min-height: 320px;
+    height: 320px;
+    border: none;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.chart-frame {
+    flex: 1;
+    width: 100%;
+    min-height: 280px;
+    height: 280px;
+}
+
+.chart-hover-wrap {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 280px;
+}
+
+.population-tooltip {
+    position: absolute;
+    z-index: 6;
+    min-width: 176px;
+    max-width: 230px;
+    padding: 0.7rem 0.85rem;
+    background: #ffffff;
+    border: 1px solid #e2e6ea;
+    border-left: 3px solid #1a1a2e;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(26, 26, 46, 0.12);
+    pointer-events: none;
+}
+
+.pop-tip-year {
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+.pop-tip-residents {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    margin-bottom: 0.55rem;
+}
+
+.pop-tip-residents-label {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+.pop-tip-residents-value {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a1a2e;
+}
+
+.pop-tip-change {
+    font-size: 0.75rem;
+    line-height: 1.45;
+}
+
+.pop-tip-change-up {
+    color: #15803d;
+    font-weight: 700;
+}
+
+.pop-tip-change-down {
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.pop-tip-change-flat {
+    color: #6b7280;
+    font-weight: 700;
+}
+
+.pop-tip-change-phrase {
+    color: #6b7280;
+}
+
+.glance-section {
+    margin-top: 1rem;
+}
+
+.glance-panel {
+    background: #ffffff;
+    border: 1px solid #e2e6ea;
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.glance-heading {
+    margin-bottom: 1rem;
+}
+
+.glance-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.glance-row {
+    display: grid;
+    grid-template-columns: minmax(140px, 190px) 1fr;
+    gap: 1.25rem;
+    align-items: start;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px solid #eef1f4;
+}
+
+.glance-row:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.glance-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #1a1a2e;
+}
+
+.glance-value {
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #1a1a2e;
+}
+
+@media (max-width: 900px) {
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .insights-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .header-inner {
+        gap: 0.85rem;
+    }
+
+    .header-logo-left {
+        height: 52px;
+    }
+
+    .header-logo-right {
+        height: 38px;
+    }
+
+    .page-header {
+        font-size: 1.35rem;
+    }
+
+    .page-subtitle {
+        font-size: 0.82rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .page-content {
+        padding: 1rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .glance-row {
+        grid-template-columns: 1fr;
+        gap: 0.35rem;
+    }
+}
