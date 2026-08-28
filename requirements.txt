@@ -1,0 +1,7 @@
+# Collocation Insights Atlas — Dash web app
+dash
+pandas
+plotly
+geopandas
+folium
+gunicorn
