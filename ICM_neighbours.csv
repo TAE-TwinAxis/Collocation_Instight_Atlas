@@ -1,0 +1,40 @@
+CAT_B;MUNIC_NAME;DISTRICT;Male;Female;NEIGHBOURS
+WC024;Stellenbosch Local Municipality;Cape Winelands;85071.0;90339.0;Breede Valley-City of Cape Town Metropolitan Municipality-Drakenstein-Theewaterskloof
+WC044;George Local Municipality;Garden Route;144969.0;149960.0;Bitou-Dr Beyers Naude-Knysna-Kou-Kamma-Mossel Bay-Oudtshoorn-Prince Albert
+WC023;Drakenstein Local Municipality;Cape Winelands;133988.0;142813.0;Bergrivier-Breede Valley-City of Cape Town Metropolitan Municipality-Stellenbosch-Swartland-Witzenberg
+EC157;King Sabata Dalindyebo Local Municipality;O.R.Tambo;223728.0;252830.0;Elundini-Engcobo-Mbhashe-Mhlontlo-Nyandeni
+EC139;Enoch Mgijima Local Municipality;Chris Hani;140782.0;156273.0;Amahlathi-Emalahleni-Intsika Yethu-Inxuba Yethemba-Raymond Mhlaba-Walter Sisulu
+KZN216;Ray Nkonyeni Local Municipality;Ugu;171980.0;190154.0;Mbizana-UMuziwabantu-Umzumbe
+KZN225;The Msunduzi Local Municipality;Umgungundlovu;390308.0;427416.99999999994;Dr Nkosazana Dlamini Zuma-Impendle-Mkhambathini-Richmond-uMngeni-uMshwathi
+KZN292;KwaDukuza Local Municipality;iLembe;156627.0;168285.0;Ethekwini Metropolitan Municipality-Mandeni-Maphumulo-Ndwedwe-uMlalazi
+KZN282;uMhlathuze Local Municipality;King Cetshwayo;199907.0;212168.0;Mfolozi-Mthonjaneni-uMlalazi
+NC091;Sol Plaatje Local Municipality;Frances Baard;129370.0;140709.0;Dikgatlong-Letsemeng-Magareng-Siyancuma-Tokologo
+KZN238;Alfred Duma Local Municipality;Uthukela;193713.0;221323.0;Dannhauser-Endumeni-Inkosi Langalibalele-Maluti a Phofung-Msinga-Okhahlamba-Phumelela
+FS194;Maluti a Phofung Local Municipality;Thabo Mofutsanyane;184386.0;214074.0;Alfred Duma-Dihlabeng-Okhahlamba-Phumelela
+FS184;Matjhabeng Local Municipality;Lejweleputswa;210469.0;228565.0;Masilonyana-Moqhaka-Nala-Setsoto-Tswelopele
+KZN252;Newcastle Local Municipality;Amajuba;243434.0;264276.0;Dannhauser-Dr Pixley Ka Isaka Seme-Emadlangeni-Phumelela
+FS204;Metsimaholo Local Municipality;Fezile Dabi;77992.0;80399.0;Dipaleseng-Emfuleni-Mafube-Midvaal-Ngwathe
+NW403;City of Matlosana Local Municipality;Dr Kenneth Kaunda;209074.0;222157.0;Ditsobotla-JB Marks-Maquassi Hills-Moqhaka-Nala-Tswaing
+GT421;Emfuleni Local Municipality;Sedibeng;468231.00000000006;477420.0;City of Johannesburg Metropolitan Municipality-JB Marks-Merafong City-Metsimaholo-Midvaal-Ngwathe-Rand West City
+MP307;Govan Mbeki Local Municipality;Gert Sibande;155266.0;154851.0;Dipaleseng-Emalahleni-Lekwa-Lesedi-Msukaligwa-Steve Tshwete-Victor Khanye
+GT484;Merafong City Local Municipality;West Rand;114789.0;110687.0;Emfuleni-JB Marks-Mogale City-Rand West City-Rustenburg
+GT485;Rand West City Local Municipality;West Rand;168726.0;166047.0;City of Johannesburg Metropolitan Municipality-Emfuleni-Merafong City-Mogale City
+NW405;JB Marks Local Municipality;Dr Kenneth Kaunda;102652.0;110018.0;City of Matlosana-Ditsobotla-Emfuleni-Kgetlengrivier-Merafong City-Moqhaka-Ngwathe-Rustenburg
+GT481;Mogale City Local Municipality;West Rand;221672.0;216545.0;City of Johannesburg Metropolitan Municipality-City of Tshwane Metropolitan Municipality-Local Municipality of Madibeng-Merafong City-Rand West City-Rustenburg
+MP312;Emalahleni Local Municipality;Nkangala;220559.0;213963.0;City of Tshwane Metropolitan Municipality-Govan Mbeki-Steve Tshwete-Thembisile-Victor Khanye
+NW383;Mahikeng Local Municipality;Ngaka Modiri Molema;174177.0;180327.0;Ditsobotla-Ramotshere Moiloa-Ratlou-Tswaing
+MP313;Steve Tshwete Local Municipality;Nkangala;120304.0;121726.0;Chief Albert Luthuli-Elias Motsoaledi-Emakhazeni-Emalahleni-Govan Mbeki-Msukaligwa-Thembisile
+NW373;Rustenburg Local Municipality;Bojanala;292453.0;269862.0;JB Marks-Kgetlengrivier-Local Municipality of Madibeng-Merafong City-Mogale City-Moses Kotane
+NW372;Local Municipality of Madibeng;Bojanala;264904.0;257662.0;City of Tshwane Metropolitan Municipality-Mogale City-Moretele-Moses Kotane-Rustenburg-Thabazimbi
+MP326;City of Mbombela Local Municipality;Ehlanzeni;395832.0;423092.99999999994;Bushbuckridge-Chief Albert Luthuli-Emakhazeni-Nkomazi-Thaba Chweu
+MP324;Nkomazi Local Municipality;Ehlanzeni;278082.0;313846.0;Bushbuckridge-City of Mbombela
+LIM476;Fetakgomo Tubatse Local Municipality;Sekhukhune;275658.0;300302.0;Elias Motsoaledi-Lepele-Nkumpi-Makhuduthamaga-Maruleng-Thaba Chweu
+MP325;Bushbuckridge Local Municipality;Ehlanzeni;343292.0;407528.99999999994;Ba-Phalaborwa-City of Mbombela-Maruleng-Nkomazi-Thaba Chweu
+LIM354;Polokwane Local Municipality;Capricorn;406944.99999999994;436514.0;Blouberg-Greater Tzaneen-Lepele-Nkumpi-Mogalakwena-Molemole
+LIM333;Greater Tzaneen Local Municipality;Mopani;223101.0;255152.0;Ba-Phalaborwa-Greater Giyani-Greater Letaba-Lepele-Nkumpi-Maruleng-Molemole-Polokwane
+LIM367;Mogalakwena Local Municipality;Waterberg;180531.0;197667.0;Blouberg-Lepele-Nkumpi-Lephalale-Modimolle-Mookgophong-Polokwane
+LIM334;Ba-Phalaborwa Local Municipality;Mopani;90254.0;98348.0;Bushbuckridge-Collins Chabane-Greater Giyani-Greater Letaba-Greater Tzaneen-Maruleng
+LIM331;Greater Giyani Local Municipality;Mopani;143873.0;172968.0;Ba-Phalaborwa-Collins Chabane-Greater Letaba-Greater Tzaneen
+LIM362;Lephalale Local Municipality;Waterberg;62761.0;62437.0;Blouberg-Modimolle-Mookgophong-Mogalakwena-Thabazimbi
+LIM344;Makhado Local Municipality;Vhembe;236244.0;266208.0;Blouberg-Collins Chabane-Greater Letaba-Molemole-Musina-Thulamela
+LIM343;Thulamela Local Municipality;Vhembe;268293.0;307636.0;Collins Chabane-Makhado-Musina
